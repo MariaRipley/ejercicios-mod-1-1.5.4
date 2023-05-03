@@ -1,0 +1,86 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  margin-top: 15px;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+.title {
+  background-color: lightgray;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.lista {
+  background-color: greenyellow;
+  font-weight: bold;
+}
+
+.title2 {
+  background-color: yellow;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.p-main {
+  background-color: yellow;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.linea {
+  background-color: lightgray;
+  height: 1.5rem;
+}
+
+.title3 {
+  background-color: grey;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.p-footer {
+  background-color: grey;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  .lista {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: ;
+  }
+  .main {
+    display: flex;
+  }
+
+  .cuadrado {
+    width: 10rem;
+    height: 10rem;
+    background-color: orange;
+    position: absolute;
+    z-index: 999;
+    right: 15px;
+  }
+
+  .linea-1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+}
